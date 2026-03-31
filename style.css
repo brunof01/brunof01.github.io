@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px; /*margem de espaçamento da borda da página*/
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    background: wheat;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header{
+    text-align: left;
+    margin-bottom: 20px;
+    flex: 0 0 100%;
+}
+
+.header h1{
+    color: darkmagenta;
+}
+
+.header p{
+    margin: 0
+}
+ 
+.section{
+    margin-bottom: 20px;
+}
+
+.section h2{
+    border-bottom: 2px solid black;
+}
+
+.left{
+    flex: 4;
+}
+
+.right{
+    flex: 6;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    padding-left: 10px;
+}
